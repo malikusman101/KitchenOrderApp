@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Order } from '../../../types';
+import { Order } from '../../../../types';
 
 export const fetchOrders = async (): Promise<Order[]> => {
   try {
